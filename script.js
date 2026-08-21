@@ -36,8 +36,8 @@ window.addEventListener('scroll', () => {
 const titleEl = document.querySelector('.hero-title');
 if (titleEl) {
   const texts = [
-    'Java Developer · <span>Spring Boot</span> · Full Stack · ML',
-    'Backend Developer · <span>REST APIs</span> · PostgreSQL · JPA',
+    'Full Stack Java Developer · <span>QA Automation Engineer / SDET</span>',
+    'Java · Spring Boot · <span>Selenium</span> · TestNG',
     'Open to Work · <span>Bangalore</span> · Available Now',
   ];
   let idx = 0;
