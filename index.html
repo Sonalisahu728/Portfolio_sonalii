@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Sonali Sahu — Java Developer</title>
+<title>Sonali Sahu — Java Developer & QA/SDET</title>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -30,9 +30,9 @@
   <div class="hero-content">
     <div class="hero-tag"><span class="hero-tag-dot"></span>Open to Work · Bangalore, India</div>
     <h1 class="hero-name">SONALI<br><span class="line2">SAHU</span></h1>
-    <p class="hero-title">Java Developer · <span>Spring Boot</span> · Full Stack · ML</p>
+    <p class="hero-title">Full Stack Java Developer · <span>QA Automation Engineer / SDET</span></p>
     <p class="hero-desc">
-      <strong>2026 CSE Graduate (CGPA 8.0)</strong> with certified expertise in SQL Advanced and strong foundations in Core Java, Spring Boot, and RESTful APIs. Built real-world backend systems across 2 internships. Delivered a <strong>99% accurate ML-based phishing detection system</strong> with 10/10 SGPA. Fluent in 4 languages.
+      <strong>2026 CSE Graduate (CGPA 8.0)</strong> who builds full-stack applications with Java, Spring Boot, and PostgreSQL — and tests them just as rigorously. Hands-on across the full STLC: manual test case design, black-box techniques (BVA, Equivalence Partitioning, Decision Table), Selenium WebDriver automation with TestNG, and API testing with Postman/Swagger. Delivered a <strong>99% accurate ML-based phishing detection system</strong> with 10/10 SGPA. Fluent in 4 languages.
     </p>
     <div class="hero-badges">
       <span class="badge hot">🏆 HackerRank SQL Advanced</span>
@@ -42,6 +42,8 @@
       <span class="badge hot">🏅 10/10 SGPA — Final Year Project</span>
       <span class="badge blue">📊 Deloitte Data Analytics</span>
       <span class="badge green">🗣️ 4 Languages · English · Hindi · Odia · Malayalam</span>
+      <span class="badge blue">🧪 Selenium + TestNG</span>
+      <span class="badge green">🔌 API Testing (Postman/Swagger)</span>
     </div>
     <div class="hero-cta">
       <a href="mailto:sonalisahu001892@gmail.com" class="btn-main">Get In Touch →</a>
@@ -65,6 +67,10 @@
         <div class="hstat-num"><span>99</span>%</div>
         <div class="hstat-label">ML Model Accuracy</div>
       </div>
+      <div class="hstat">
+        <div class="hstat-num"><span>STLC</span></div>
+        <div class="hstat-label">Full Test Lifecycle</div>
+      </div>
     </div>
   </div>
 </section>
@@ -75,7 +81,7 @@
 <section class="section reveal" id="skills">
   <div class="section-tag">// technical skills</div>
   <h2 class="section-title">What I Build With</h2>
-  <p class="section-sub">Full-stack Java developer with backend strength and growing cloud expertise.</p>
+  <p class="section-sub">Full-stack Java developer who ships and tests — backend strength, growing cloud expertise, and a full QA/automation toolkit.</p>
   <div class="skills-grid">
     <div class="skill-card featured reveal">
       <span class="skill-icon">☕</span>
@@ -85,6 +91,17 @@
         <span class="stag">Java</span><span class="stag">Spring Boot</span><span class="stag">Spring MVC</span>
         <span class="stag">Spring Data JPA</span><span class="stag">Hibernate</span><span class="stag">REST API</span>
         <span class="stag">Maven</span><span class="stag">Postman</span>
+      </div>
+    </div>
+    <div class="skill-card featured reveal">
+      <span class="skill-icon">🧪</span>
+      <div class="skill-name">QA & Test Automation</div>
+      <p class="skill-desc">Full STLC — manual + automated, from test design to CI-ready suites</p>
+      <div class="skill-tags">
+        <span class="stag">Selenium WebDriver</span><span class="stag">TestNG</span><span class="stag">Page Object Model</span>
+        <span class="stag">Postman</span><span class="stag">Swagger (OpenAPI)</span><span class="stag">BVA / Equivalence Partitioning</span>
+        <span class="stag">Decision Table</span><span class="stag">Defect Lifecycle</span><span class="stag">JIRA</span>
+        <span class="stag">Data-Driven Testing</span>
       </div>
     </div>
     <div class="skill-card reveal">
@@ -180,6 +197,28 @@
       </div>
     </div>
 
+    <!-- BUG TRACKING SYSTEM -->
+    <div class="project-card featured reveal">
+      <div class="proj-header">
+        <span class="proj-tag backend">🐞 Full Stack + QA · Role-Based System</span>
+        <div class="proj-links">
+          <a href="https://github.com/Sonalisahu728" class="proj-link" target="_blank">GitHub ↗</a>
+        </div>
+      </div>
+      <div class="proj-name">Bug Tracking System — Kanban-Style Issue Tracker</div>
+      <p class="proj-desc">Role-based bug tracker (Developer, Team Lead, Admin) with a drag-and-drop Kanban board across Open / In Progress / In Review / Closed states — built and tested end-to-end, backend to UI.</p>
+      <ul class="proj-highlights">
+        <li>Performed negative testing on status transitions — verified an invalid drag (e.g. Open → Closed) is rejected server-side, not just blocked in the UI</li>
+        <li>Tested JWT authentication end-to-end in Postman: token issuance, storage, filter validation on every request, rejection of expired/tampered tokens — before UI integration even began</li>
+        <li>Manually tested role-based UI permissions across all three roles, confirming each saw only its permitted actions</li>
+        <li>Data model spans User, Project, Issue, Comment with many-to-many project membership</li>
+      </ul>
+      <div class="proj-stack">
+        <span class="pstack">Java</span><span class="pstack">Spring Boot</span><span class="pstack">Spring Security</span>
+        <span class="pstack">JWT</span><span class="pstack">PostgreSQL</span><span class="pstack">Postman</span><span class="pstack">Kanban</span>
+      </div>
+    </div>
+
     <!-- DEVBOARD -->
     <div class="project-card reveal" style="border-color: #378ADD33;">
       <div class="proj-header">
@@ -223,12 +262,34 @@
       <ul class="proj-highlights">
         <li>Controller-Service-Repository architecture — clean separation of concerns</li>
         <li>Spring Data JPA replaced JDBC — reduced boilerplate by ~60%</li>
-        <li>Configured MySQL via application.properties with environment-safe credentials</li>
-        <li>Validated all endpoints with Postman — GET, POST, PUT, DELETE</li>
+        <li>Wrote and executed Postman test cases for every CRUD endpoint — valid inputs, invalid/missing fields, and duplicate-record scenarios</li>
+        <li>Re-ran the full Postman regression suite before and after the JDBC → JPA migration to confirm zero functional regressions</li>
+        <li>Documented every endpoint with Swagger (OpenAPI) for clear request/response contracts</li>
       </ul>
       <div class="proj-stack">
         <span class="pstack">Java</span><span class="pstack">Spring Boot</span><span class="pstack">Spring Data JPA</span>
-        <span class="pstack">PostgreSQL</span><span class="pstack">REST API</span><span class="pstack">Postman</span>
+        <span class="pstack">PostgreSQL</span><span class="pstack">REST API</span><span class="pstack">Postman</span><span class="pstack">Swagger</span>
+      </div>
+    </div>
+
+    <!-- SMART INTERVIEW SCHEDULER -->
+    <div class="project-card blue reveal">
+      <div class="proj-header">
+        <span class="proj-tag backend">📅 Backend · Scheduling Logic</span>
+        <div class="proj-links">
+          <a href="https://github.com/Sonalisahu728" class="proj-link" target="_blank">GitHub ↗</a>
+        </div>
+      </div>
+      <div class="proj-name">Smart Interview Scheduler</div>
+      <p class="proj-desc">Candidate–interviewer–time-slot matching system, with test design driving out edge cases before they became bugs.</p>
+      <ul class="proj-highlights">
+        <li>Designed and executed manual test cases for scheduling logic using equivalence partitioning and boundary value analysis — covering conflicts, double-bookings, and first/last-slot edge cases</li>
+        <li>Validated REST endpoints and backend data flows with Postman</li>
+        <li>Ran functional and regression testing across booking workflows before each release</li>
+      </ul>
+      <div class="proj-stack">
+        <span class="pstack">Spring Boot</span><span class="pstack">Spring Data JPA</span>
+        <span class="pstack">PostgreSQL</span><span class="pstack">Postman</span>
       </div>
     </div>
 
@@ -533,6 +594,7 @@
         <span class="stag">Core Java</span><span class="stag">Spring Boot</span>
         <span class="stag">SQL</span><span class="stag">HTML</span><span class="stag">CSS</span>
         <span class="stag">JavaScript</span><span class="stag">Git</span><span class="stag">Hibernate</span>
+        <span class="stag">Selenium WebDriver</span><span class="stag">TestNG</span><span class="stag">QA Fundamentals</span>
       </div>
     </div>
     <div class="training-status">
@@ -585,7 +647,7 @@
 <section class="section reveal" id="contact">
   <div class="section-tag">// let's connect</div>
   <h2 class="section-title">Get In Touch</h2>
-  <p class="section-sub" style="margin-bottom:40px;">Looking for Java Developer / Full Stack roles. Available immediately in Bangalore.</p>
+  <p class="section-sub" style="margin-bottom:40px;">Looking for Full Stack Java Developer or QA Automation Engineer / SDET roles. Available immediately in Bangalore.</p>
   <div class="contact-grid">
     <a href="mailto:sonalisahu001892@gmail.com" class="contact-card reveal">
       <div class="contact-icon">📧</div>
@@ -620,7 +682,7 @@
 
 <footer>
   <div class="footer-brand"><span>S</span>onali Sahu</div>
-  <div class="footer-meta">Java Developer · Spring Boot · Full Stack · Bangalore 2026</div>
+  <div class="footer-meta">Java Developer · QA/SDET · Spring Boot · Bangalore 2026</div>
   <div class="footer-meta">Built with ❤️ — Open to opportunities</div>
 </footer>
 
